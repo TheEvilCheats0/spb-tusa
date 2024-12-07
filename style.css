@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+    color: #707070;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    border-radius: 4px;
+}
+nav ul li a:hover {
+    color: #ff5722; /* Произвольный цвет */
+    transition: color 0.3s ease; /* Плавный эффект */
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eaeaea;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #707070;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto; /* Центрирование блока */
+}
+.header {
+    height: 100px; /* Задание высоты */
+    display: flex;
+    align-items: center; /* Центровка содержимого по вертикали */
+}
+.logo {
+    margin-left: 20px; /* Отступ слева */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    justify-content: space-between;
+}
+nav ul {
+    margin-left: auto; /* Отодвинуть меню вправо */
+}
+.footer {
+    height: 60px;
+}
+.footer {
+    background-color: #484343;
+}
+.footer p {
+    text-align: right;
+    margin: 10px 20px; /* Отступ от правой и верхней границ */
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+header, footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+hr {
+    margin: 20px 0;
+}
